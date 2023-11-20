@@ -20,7 +20,7 @@ class TagMixin(ClusterableModel):
     wtm_tags = ParentalManyToManyField(
         Tag,
         blank=True,
-        related_name="pages",
+        related_name="+",
         verbose_name=_("Tags"),
         help_text=_("The tags to include when this page is loaded."),
     )
