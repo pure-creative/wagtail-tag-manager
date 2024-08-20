@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 install_requires = [
     "wagtail>=4.0,<7.0",
     "wagtail_modeladmin>=2.0.0,<2.1.0",
-    "selenium>=3.141.0,<3.142.0",
+    # "selenium>=3.141.0,<3.142.0",
 ]
 
 tests_require = [
