@@ -193,7 +193,7 @@ def register_unpublished_changes_report_menu_item():
     return AdminOnlyMenuItem(
         _("Cookie consents"),
         reverse("cookie_consent_report"),
-        classnames="icon icon-" + CookieConsentReportView.header_icon,
+        classname="icon icon-" + CookieConsentReportView.header_icon,
         order=700,
     )
 
